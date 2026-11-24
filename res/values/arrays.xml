@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_style_values" translatable="false">
+        <item>digital</item>
+        <item>stack</item>
+        <item>analog</item>
+        <item>words</item>
+        <item>binary</item>
+    </string-array>
+    <string-array name="clock_format_values" translatable="false">
+        <item>system</item>
+        <item>24</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="accent_values" translatable="false">
+        <item>white</item>
+        <item>green</item>
+        <item>cyan</item>
+        <item>amber</item>
+        <item>pink</item>
+        <item>purple</item>
+        <item>red</item>
+    </string-array>
+    <string-array name="background_values" translatable="false">
+        <item>black</item>
+        <item>gradient</item>
+        <item>photo</item>
+    </string-array>
+    <string-array name="battery_values" translatable="false">
+        <item>icon_percent</item>
+        <item>icon</item>
+        <item>percent</item>
+        <item>hidden</item>
+    </string-array>
+    <string-array name="timeout_values" translatable="false">
+        <item>5</item>
+        <item>8</item>
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+    </string-array>
+    <string-array name="hour_values" translatable="false">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+    </string-array>
+    <string-array name="hour_entries" translatable="false">
+        <item>00:00</item>
+        <item>01:00</item>
+        <item>02:00</item>
+        <item>03:00</item>
+        <item>04:00</item>
+        <item>05:00</item>
+        <item>06:00</item>
+        <item>07:00</item>
+        <item>08:00</item>
+        <item>09:00</item>
+        <item>10:00</item>
+        <item>11:00</item>
+        <item>12:00</item>
+        <item>13:00</item>
+        <item>14:00</item>
+        <item>15:00</item>
+        <item>16:00</item>
+        <item>17:00</item>
+        <item>18:00</item>
+        <item>19:00</item>
+        <item>20:00</item>
+        <item>21:00</item>
+        <item>22:00</item>
+        <item>23:00</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Digital</item>
+        <item>Big two-line</item>
+        <item>Analog</item>
+        <item>In words</item>
+        <item>Binary (for geeks)</item>
+    </string-array>
+    <string-array name="clock_format_entries">
+        <item>As in system settings</item>
+        <item>24-hour</item>
+        <item>12-hour</item>
+    </string-array>
+    <string-array name="accent_entries">
+        <item>White</item>
+        <item>Green</item>
+        <item>Cyan</item>
+        <item>Amber</item>
+        <item>Pink</item>
+        <item>Purple</item>
+        <item>Red</item>
+    </string-array>
+    <string-array name="background_entries">
+        <item>Black</item>
+        <item>Gradient</item>
+        <item>Photo</item>
+    </string-array>
+    <string-array name="battery_entries">
+        <item>Icon and percent</item>
+        <item>Icon</item>
+        <item>Percent</item>
+        <item>Hidden</item>
+    </string-array>
+    <string-array name="timeout_entries">
+        <item>5 seconds</item>
+        <item>8 seconds</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+        <item>1 minute</item>
+    </string-array>
+    <string-array name="pet_idle">
+        <item>Purr…</item>
+        <item>I missed you!</item>
+        <item>Pet the lid, please</item>
+        <item>Let\'s go for a walk?</item>
+        <item>Nice weather to sleep</item>
+        <item>I\'m guarding your phone</item>
+    </string-array>
+    <string-array name="eightball_answers">
+        <item>It is certain</item>
+        <item>Without a doubt</item>
+        <item>Yes, definitely</item>
+        <item>You may rely on it</item>
+        <item>Most likely</item>
+        <item>Outlook good</item>
+        <item>Signs point to yes</item>
+        <item>Reply hazy, try again</item>
+        <item>Ask again later</item>
+        <item>Better not tell you now</item>
+        <item>Cannot predict now</item>
+        <item>Don\'t count on it</item>
+        <item>My reply is no</item>
+        <item>Very doubtful</item>
+        <item>Outlook not so good</item>
+        <item>Close the lid and think</item>
+    </string-array>
+    <string-array name="key_action_entries">
+        <item>Nothing</item>
+        <item>Contacts</item>
+        <item>Messages</item>
+        <item>Dialer</item>
+        <item>Call log</item>
+        <item>Camera</item>
+        <item>Flashlight</item>
+        <item>Notifications</item>
+        <item>Quick settings</item>
+        <item>Cursor mode</item>
+    </string-array>
+    <string-array name="end_button_entries">
+        <item>Go to Home</item>
+        <item>Turn off screen</item>
+        <item>Home, then turn off screen</item>
+    </string-array>
+    <string-array name="end_button_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+</resources>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Outer screen</string>
+    <string name="settings_summary">Clock, notifications, SOS button</string>
+    <string name="use_outer_screen">Use outer screen</string>
+    <string name="show_now">Show on outer screen now</string>
+    <string name="show_now_summary">Check how the settings look</string>
+    <string name="show_now_toast">Look at the outer screen</string>
+    <string name="preview_label">Preview: %1$s · tap to switch</string>
+    <string name="preview_desc">Outer screen preview</string>
+
+    <string name="cat_clock">Clock</string>
+    <string name="clock_style">Clock face</string>
+    <string name="clock_format">Time format</string>
+    <string name="show_seconds">Seconds</string>
+    <string name="show_seconds_summary">Digital and analog faces tick every second</string>
+    <string name="show_date">Date</string>
+    <string name="accent_color">Accent colour</string>
+    <string name="background">Background</string>
+    <string name="pick_photo">Choose photo</string>
+    <string name="pick_photo_summary">Cropped to 284×240 and darkened so the clock stays readable</string>
+    <string name="signature">Signature</string>
+    <string name="signature_hint">Your text under the clock: a name, a quote, a phone number to call if found…</string>
+
+    <string name="cat_status">Status bar</string>
+    <string name="battery_style">Battery</string>
+    <string name="notif_icons">Notification icons</string>
+    <string name="notif_icons_summary">Icons of apps with new notifications</string>
+    <string name="show_missed">Missed calls</string>
+    <string name="show_steps">Steps today</string>
+    <string name="show_steps_summary">From the phone\'s step counter</string>
+
+    <string name="cat_pages">Pages</string>
+    <string name="pages_summary">With the screen lit, the SOS button flips pages. Turned-off pages are skipped.</string>
+    <string name="page_clock">clock</string>
+    <string name="page_call">call</string>
+    <string name="page_charging">charging</string>
+    <string name="page_notifications">Notifications</string>
+    <string name="notif_text">Show notification text</string>
+    <string name="notif_text_summary">Off: only the app and the title — the outer screen is visible to everyone</string>
+    <string name="page_music">Music</string>
+    <string name="page_music_summary">Track, artist and cover of what is playing</string>
+    <string name="page_pet">Kitty</string>
+    <string name="page_pet_summary">A pet that sleeps at night, eats while charging and tells you about notifications</string>
+    <string name="page_eightball">Magic 8-ball</string>
+    <string name="page_eightball_summary">Ask a question, press SOS — get an answer</string>
+
+    <string name="cat_wake">When to light up</string>
+    <string name="wake_lid">Closing the lid</string>
+    <string name="wake_sos">SOS button</string>
+    <string name="wake_sos_summary">Lights up the screen; while it is lit, flips pages</string>
+    <string name="torch_double_sos">Flashlight on double SOS press</string>
+    <string name="torch_double_sos_summary">A single press reacts ~0.4 s later</string>
+    <string name="wake_volume">Volume buttons</string>
+    <string name="wake_notifications">New notifications</string>
+    <string name="wake_charging">Charger plugged in or out</string>
+    <string name="charging_anim">Charging animation</string>
+
+    <string name="cat_display">Screen</string>
+    <string name="timeout">Stay on for</string>
+    <string name="brightness">Brightness</string>
+    <string name="night_mode">Night mode</string>
+    <string name="night_mode_summary">At night: dimmer, notifications don\'t light it up, the kitty sleeps</string>
+    <string name="night_start">Night starts</string>
+    <string name="night_end">Night ends</string>
+
+    <string name="tile_label">Outer screen</string>
+
+    <!-- на внешнем экране -->
+    <string name="incoming_call">Incoming call</string>
+    <string name="unknown_caller">Unknown</string>
+    <string name="in_call">In call</string>
+    <string name="no_notifications">No notifications</string>
+    <string name="new_notification">New notification</string>
+    <string name="torch_on">🔦 Flashlight on</string>
+    <string name="torch_off">Flashlight off</string>
+    <string name="charging">Charging</string>
+    <string name="charged">Charged</string>
+    <string name="unplugged">Unplugged</string>
+    <string name="eightball_hint">Ask a question and press SOS</string>
+    <string name="pet_sleep">Zzz… it\'s night, let\'s sleep</string>
+    <string name="pet_charging">Nom-nom, I\'m charging!</string>
+    <string name="pet_hungry">Feed me! The battery is almost empty</string>
+    <string name="pet_steps">We walked a lot today, well done!</string>
+    <plurals name="pet_notifications">
+        <item quantity="one">You have %d notification!</item>
+        <item quantity="other">You have %d notifications!</item>
+    </plurals>
+    <string name="demo_track">Lid Closed Blues</string>
+    <string name="demo_artist">The Flip Phones</string>
+    <string name="demo_caller">Mom</string>
+
+    <string name="keys_title">Buttons and lid</string>
+    <string name="keys_settings_summary">Contacts, Mail, Camera, Call keys, lid</string>
+    <string name="keys_intro">Keys that the open app does not use run the action set here. In apps that use them (for example Camera as the shutter) they work as usual.</string>
+    <string name="cat_buttons">Keypad buttons</string>
+    <string name="key_f1">Contacts key</string>
+    <string name="key_f2">Mail / messages key</string>
+    <string name="key_f3">F3 key</string>
+    <string name="key_camera">Camera key</string>
+    <string name="key_call">Green (call) key</string>
+    <string name="key_long_press">%1$s — long press</string>
+    <string name="key_action_app">App: %1$s</string>
+    <string name="cat_system_keys">System keys</string>
+    <string name="end_button">Red key</string>
+    <string name="home_shade">Long press Home — notifications</string>
+    <string name="home_shade_summary">Off: the action from Settings → System → Buttons</string>
+    <string name="soft_keys_summary">Left soft key is Menu (long press — recent apps), right soft key is Back. Clear works as Back where nothing can be erased. Further actions: Settings → System → Buttons.</string>
+    <string name="cat_lock_lid">Lid</string>
+    <string name="lid_answer">Opening the lid answers a call</string>
+    <string name="lid_end">Closing the lid ends a call</string>
+    <string name="lid_end_summary">Not with a wired or Bluetooth headset</string>
+    <string name="cat_text_input">Text input</string>
+    <string name="t9">T9 keyboard for the keypad</string>
+    <string name="t9_summary">Traditional T9: predictive and multi-tap input from the keypad, Russian included. Open the download page</string>
+    <string name="cursor_service_description">Cursor mode for the keypad: the D-pad moves a pointer, OK taps, long OK long-presses, the screen edge scrolls. Turned on and off by the key assigned in Settings → System → Buttons and lid.</string>
+    <string name="cursor_service_label">Cursor</string>
+</resources>

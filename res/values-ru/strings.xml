@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Внешний экран</string>
+    <string name="settings_summary">Часы, уведомления, кнопка SOS</string>
+    <string name="use_outer_screen">Использовать внешний экран</string>
+    <string name="show_now">Показать на внешнем экране</string>
+    <string name="show_now_summary">Проверить, как выглядят настройки</string>
+    <string name="show_now_toast">Посмотрите на внешний экран</string>
+    <string name="preview_label">Превью: %1$s · нажмите, чтобы листать</string>
+    <string name="preview_desc">Превью внешнего экрана</string>
+
+    <string name="cat_clock">Часы</string>
+    <string name="clock_style">Циферблат</string>
+    <string name="clock_format">Формат времени</string>
+    <string name="show_seconds">Секунды</string>
+    <string name="show_seconds_summary">Цифровые и стрелочные часы тикают каждую секунду</string>
+    <string name="show_date">Дата</string>
+    <string name="accent_color">Цвет акцента</string>
+    <string name="background">Фон</string>
+    <string name="pick_photo">Выбрать фото</string>
+    <string name="pick_photo_summary">Обрежется до 284×240 и чуть затемнится, чтобы часы читались</string>
+    <string name="signature">Подпись</string>
+    <string name="signature_hint">Свой текст под часами: имя, цитата, номер «если нашли — позвоните»…</string>
+
+    <string name="cat_status">Строка состояния</string>
+    <string name="battery_style">Батарея</string>
+    <string name="notif_icons">Значки уведомлений</string>
+    <string name="notif_icons_summary">Значки приложений с новыми уведомлениями</string>
+    <string name="show_missed">Пропущенные вызовы</string>
+    <string name="show_steps">Шаги за сегодня</string>
+    <string name="show_steps_summary">По шагомеру телефона</string>
+
+    <string name="cat_pages">Страницы</string>
+    <string name="pages_summary">Когда экран горит, кнопка SOS листает страницы. Выключенные пропускаются.</string>
+    <string name="page_clock">часы</string>
+    <string name="page_call">вызов</string>
+    <string name="page_charging">зарядка</string>
+    <string name="page_notifications">Уведомления</string>
+    <string name="notif_text">Показывать текст уведомлений</string>
+    <string name="notif_text_summary">Выключено: только приложение и заголовок — внешний экран видят все</string>
+    <string name="page_music">Музыка</string>
+    <string name="page_music_summary">Трек, исполнитель и обложка того, что играет</string>
+    <string name="page_pet">Котик</string>
+    <string name="page_pet_summary">Питомец: ночью спит, на зарядке кушает, рассказывает про уведомления</string>
+    <string name="page_eightball">Шар предсказаний</string>
+    <string name="page_eightball_summary">Задайте вопрос, нажмите SOS — получите ответ</string>
+
+    <string name="cat_wake">Когда включать</string>
+    <string name="wake_lid">Закрытие крышки</string>
+    <string name="wake_sos">Кнопка SOS</string>
+    <string name="wake_sos_summary">Включает экран, а когда он горит — листает страницы</string>
+    <string name="torch_double_sos">Фонарик по двойному нажатию SOS</string>
+    <string name="torch_double_sos_summary">Одиночное нажатие тогда срабатывает через ~0,4 с</string>
+    <string name="wake_volume">Кнопки громкости</string>
+    <string name="wake_notifications">Новые уведомления</string>
+    <string name="wake_charging">Подключение и отключение зарядки</string>
+    <string name="charging_anim">Анимация зарядки</string>
+
+    <string name="cat_display">Экран</string>
+    <string name="timeout">Гаснет через</string>
+    <string name="brightness">Яркость</string>
+    <string name="night_mode">Ночной режим</string>
+    <string name="night_mode_summary">Ночью тусклее, уведомления не будят экран, котик спит</string>
+    <string name="night_start">Начало ночи</string>
+    <string name="night_end">Конец ночи</string>
+
+    <string name="tile_label">Внешний экран</string>
+
+    <string name="incoming_call">Входящий вызов</string>
+    <string name="unknown_caller">Неизвестный</string>
+    <string name="in_call">Разговор</string>
+    <string name="no_notifications">Уведомлений нет</string>
+    <string name="new_notification">Новое уведомление</string>
+    <string name="torch_on">🔦 Фонарик включён</string>
+    <string name="torch_off">Фонарик выключен</string>
+    <string name="charging">Заряжается</string>
+    <string name="charged">Заряжено</string>
+    <string name="unplugged">Зарядка отключена</string>
+    <string name="eightball_hint">Задайте вопрос и нажмите SOS</string>
+    <string name="pet_sleep">Ззз… ночь, давай спать</string>
+    <string name="pet_charging">Ням-ням, заряжаюсь!</string>
+    <string name="pet_hungry">Покорми меня! Батарейка почти пустая</string>
+    <string name="pet_steps">Мы сегодня много гуляли, молодцы!</string>
+    <plurals name="pet_notifications">
+        <item quantity="one">У тебя %d уведомление!</item>
+        <item quantity="few">У тебя %d уведомления!</item>
+        <item quantity="many">У тебя %d уведомлений!</item>
+        <item quantity="other">У тебя %d уведомления!</item>
+    </plurals>
+    <string name="demo_track">Блюз закрытой крышки</string>
+    <string name="demo_artist">Раскладушки</string>
+    <string name="demo_caller">Мама</string>
+
+    <string name="keys_title">Кнопки и крышка</string>
+    <string name="keys_settings_summary">Контакты, Почта, Камера, зелёная, крышка</string>
+    <string name="keys_intro">Кнопки, которые открытое приложение не использует, выполняют назначенное здесь действие. В приложениях, где они нужны (например, Камера как спуск затвора), работают как обычно.</string>
+    <string name="cat_buttons">Кнопки клавиатуры</string>
+    <string name="key_f1">Кнопка «Контакты»</string>
+    <string name="key_f2">Кнопка «Почта/сообщения»</string>
+    <string name="key_f3">Кнопка F3</string>
+    <string name="key_camera">Кнопка «Камера»</string>
+    <string name="key_call">Зелёная кнопка (вызов)</string>
+    <string name="key_long_press">%1$s — долгое нажатие</string>
+    <string name="key_action_app">Приложение: %1$s</string>
+    <string name="cat_system_keys">Системные кнопки</string>
+    <string name="end_button">Красная кнопка</string>
+    <string name="home_shade">Долгое нажатие «Домой» — уведомления</string>
+    <string name="home_shade_summary">Выключено: действие из «Настройки → Система → Кнопки»</string>
+    <string name="soft_keys_summary">Левая софт-клавиша — Меню (долгое — недавние приложения), правая — Назад. «Стереть» работает как «Назад», где стирать нечего. Остальные действия: Настройки → Система → Кнопки.</string>
+    <string name="cat_lock_lid">Крышка</string>
+    <string name="lid_answer">Открыть крышку — ответить на вызов</string>
+    <string name="lid_end">Закрыть крышку — завершить вызов</string>
+    <string name="lid_end_summary">Кроме случаев с проводной или Bluetooth-гарнитурой</string>
+    <string name="cat_text_input">Ввод текста</string>
+    <string name="t9">Клавиатура T9 для кнопок</string>
+    <string name="t9_summary">Traditional T9: предиктивный и мультитап-ввод с цифровой клавиатуры, есть русский. Открыть страницу загрузки</string>
+    <string name="cursor_service_description">Режим курсора для кнопок: крестовина водит указатель, OK — касание, долгое OK — долгое касание, у края экрана — прокрутка. Включается и выключается кнопкой из «Настройки → Система → Кнопки и крышка».</string>
+    <string name="cursor_service_label">Курсор</string>
+</resources>

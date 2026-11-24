@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="clock_style_entries">
+        <item>Цифровой</item>
+        <item>Крупный в две строки</item>
+        <item>Стрелочный</item>
+        <item>Словами</item>
+        <item>Двоичный (для гиков)</item>
+    </string-array>
+    <string-array name="clock_format_entries">
+        <item>Как в настройках системы</item>
+        <item>24 часа</item>
+        <item>12 часов</item>
+    </string-array>
+    <string-array name="accent_entries">
+        <item>Белый</item>
+        <item>Зелёный</item>
+        <item>Голубой</item>
+        <item>Янтарный</item>
+        <item>Розовый</item>
+        <item>Фиолетовый</item>
+        <item>Красный</item>
+    </string-array>
+    <string-array name="background_entries">
+        <item>Чёрный</item>
+        <item>Градиент</item>
+        <item>Фото</item>
+    </string-array>
+    <string-array name="battery_entries">
+        <item>Значок и проценты</item>
+        <item>Значок</item>
+        <item>Проценты</item>
+        <item>Не показывать</item>
+    </string-array>
+    <string-array name="timeout_entries">
+        <item>5 секунд</item>
+        <item>8 секунд</item>
+        <item>15 секунд</item>
+        <item>30 секунд</item>
+        <item>1 минута</item>
+    </string-array>
+    <string-array name="pet_idle">
+        <item>Мур-мур…</item>
+        <item>Я скучал!</item>
+        <item>Погладь крышку</item>
+        <item>Пойдём гулять?</item>
+        <item>Хорошая погода, чтобы поспать</item>
+        <item>Я охраняю твой телефон</item>
+    </string-array>
+    <string-array name="eightball_answers">
+        <item>Бесспорно</item>
+        <item>Никаких сомнений</item>
+        <item>Определённо да</item>
+        <item>Можешь быть уверен</item>
+        <item>Вероятнее всего</item>
+        <item>Хорошие перспективы</item>
+        <item>Знаки говорят — да</item>
+        <item>Пока не ясно, попробуй снова</item>
+        <item>Спроси позже</item>
+        <item>Лучше не рассказывать</item>
+        <item>Сейчас нельзя предсказать</item>
+        <item>Даже не думай</item>
+        <item>Мой ответ — нет</item>
+        <item>Весьма сомнительно</item>
+        <item>Перспективы не очень</item>
+        <item>Закрой крышку и подумай</item>
+    </string-array>
+    <string-array name="key_action_entries">
+        <item>Ничего</item>
+        <item>Контакты</item>
+        <item>Сообщения</item>
+        <item>Набор номера</item>
+        <item>Журнал звонков</item>
+        <item>Камера</item>
+        <item>Фонарик</item>
+        <item>Уведомления</item>
+        <item>Быстрые настройки</item>
+        <item>Режим курсора</item>
+    </string-array>
+    <string-array name="end_button_entries">
+        <item>Домой</item>
+        <item>Выключить экран</item>
+        <item>Домой, а потом выключить экран</item>
+    </string-array>
+</resources>

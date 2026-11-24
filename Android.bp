@@ -1,0 +1,26 @@
+// ThorSubScreen: внешний экран ALT AT-M140 (thor2) через vendor-HAL ILsPresentation + настройки.
+// Исходники живут в port64/build/subscreen, build.sh копирует их в packages/apps/ThorSubScreen.
+// Кнопки SOS/громкости при погашенном экране присылает PhoneWindowManager
+// (port64/build/patches/frameworks_base/0001-*.patch).
+android_app {
+    name: "ThorSubScreen",
+    srcs: [
+        "src/**/*.java",
+        "aidl/**/*.aidl",
+    ],
+    aidl: {
+        local_include_dirs: ["aidl"],
+    },
+    resource_dirs: ["res"],
+    static_libs: [
+        "androidx.preference_preference",
+        "SettingsLibCollapsingToolbarBaseActivity",
+        "SettingsLibMainSwitchPreference",
+        "SettingsLibSettingsTheme",
+    ],
+    platform_apis: true,
+    certificate: "platform",
+    optimize: {
+        enabled: false,
+    },
+}

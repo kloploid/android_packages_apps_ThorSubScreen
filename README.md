@@ -1,15 +1,13 @@
 # ThorSubScreen
 
-The **external screen** of the **ALT AT-M140 "MIVE Style Folder 2"** (codename `thor2`), a
-Korean flip phone with a keypad, for our LineageOS GSI. It also handles the phone's extra keys
-and offers a cursor for apps that can't be used without touch.
+The external screen, extra keys and cursor of the ALT AT-M140 (`thor2`) for NineTailsFlip's LineageOS.
 
-It's a persistent, platform-signed system app. It goes in `packages/apps/ThorSubScreen` and is
-pulled into the build by [android_vendor_thor2](https://github.com/kloploid/android_vendor_thor2)
-(`thor2.mk`). It relies on that repository's `frameworks/base` patches for the SOS, volume, lid
-and shortcut keys.
+ThorSubScreen drives the **external screen** of the **ALT AT-M140 "MIVE Style Folder 2"**
+(codename `thor2`), a Korean flip phone with a keypad: a clock, calls, notifications, music and
+more on the outside of the lid. It also handles the phone's extra keys and offers a cursor for
+apps that can't be used without touch.
 
-## What it does
+## Features
 
 ### The outer screen
 
@@ -57,7 +55,16 @@ These are the keys apps don't handle themselves. `PhoneWindowManager` passes the
 a long OK long-presses, and the pointer scrolls when it reaches the edge of the screen. It only
 captures keys while cursor mode is on.
 
-### Settings
+## Installation
+
+It's a persistent, platform-signed system app and comes with the image: it goes in
+`packages/apps/ThorSubScreen` of the LineageOS tree and is pulled into the build by
+[android_vendor_thor2](https://github.com/kloploid/android_vendor_thor2) (`thor2.mk`). It relies
+on that repository's `frameworks/base` patches for the SOS, volume, lid and shortcut keys.
+
+## Usage
+
+Settings live in the system Settings app:
 
 - *Settings → Display → Outer screen*. It's also the long press on the quick-settings tile.
   There's a live preview; tapping it flips pages.
@@ -76,10 +83,19 @@ certificate, because it uses `DEVICE_POWER`, `WRITE_SECURE_SETTINGS`, `CONTROL_K
 m ThorSubScreen
 ```
 
-## Layout
+## Project structure
 
 | Path | What's there |
 |---|---|
 | `src/org/thor2/subscreen/` | `SubScreenController` (when to show what), `Renderer` (draws a frame), `Panel` (the HAL), `KeyActions`, `CursorService`, `NotifyListener`, settings |
 | `aidl/vendor/hnlens/hardware/presentation/` | The vendor HAL's interfaces |
 | `res/` | Strings (English and Russian), settings screens, the cursor service config |
+
+## Contributing
+
+Issues and pull requests are welcome. Strings are in English and Russian (`res/values*/`): add
+both when you add one.
+
+## License
+
+No license file yet.

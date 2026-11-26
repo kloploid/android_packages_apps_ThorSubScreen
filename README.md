@@ -15,17 +15,24 @@ The outer screen is a 284 × 240 panel (GC9307C, over SPI). It's driven through 
 `vendor.hnlens.hardware.presentation` HAL (`ILsPresentation`), the same way the stock firmware's
 `LsPresentationService` does it.
 
+Every page is drawn in the Nine look, like the apps on the main screen: black, plain text in
+the font chosen in the phone's first-time setup (monospace unless proportional was chosen),
+white for what matters, gray for the details, the page's title in small gray capitals and a hint
+line at the bottom. No icons, emoji or colours; green only for what's going on (a call ringing,
+charging).
+
 - **Pages.** The SOS key flips through them while the screen is lit; pages that are turned off
   are skipped.
-  - a clock: digital, analog, or the time in words ("ten past four", «без пяти четыре»), with
-    the date, an accent colour, a background photo and your own signature line;
+  - a clock: digits, or the time in words ("ten past four", «без пяти четыре»), with the date
+    and your own signature line;
   - incoming and ongoing calls;
   - charging;
   - notifications, with or without their text (the outer screen is visible to everyone);
-  - music: track, artist and cover;
-  - a kitty that sleeps at night, eats while charging and tells you about notifications;
+  - music: track and artist, playing or paused;
+  - a kitty, drawn in letters, that sleeps at night, eats while charging and tells you about
+    notifications;
   - a magic 8-ball: ask a question, press SOS.
-- **Status line:** battery, icons of apps with new notifications, missed calls, steps today.
+- **Status line:** battery, how many new notifications, missed calls, steps today.
 - **When it lights up:** closing the lid, the SOS key, the volume keys, new notifications, the
   charger being plugged in or out. Each one can be turned off.
 - **Night mode:** at night the screen is dimmer, notifications don't light it up, and the kitty
@@ -64,14 +71,22 @@ on that repository's `frameworks/base` patches for the SOS, volume, lid and shor
 
 ## Usage
 
-Settings live in the system Settings app:
+The settings are in the phone's Settings app
+([NineTailsFlip's Settings](https://github.com/NineTailsFlip/settings9)):
 
-- *Settings → Display → Outer screen*. It's also the long press on the quick-settings tile.
-  There's a live preview; tapping it flips pages.
-- *Settings → System → Buttons and lid*.
+- *Settings → Display → Outer screen*: the pages, the clock, the status line, what lights it up,
+  timeout, brightness, night mode, and "Show it now". The shade's quick settings switch it on and
+  off.
+- *Settings → System → Buttons and lid*: each key's short and long press, the red key, long
+  press Home, the lid.
 
-Preferences are kept in device-protected storage, so the outer screen works before the phone is
-first unlocked.
+Settings reaches them through ThorSubScreen's provider `org.thor2.subscreen.prefs`
+(`PrefsProvider`), which only holders of `WRITE_SECURE_SETTINGS` may use. They're kept in
+device-protected storage, so the outer screen works before the phone is first unlocked.
+
+The outer screen's HAL only answers SELinux domains in `hal_presentation_client`; the thor2
+image's vendor (`vendor_stage3.img`, see android_vendor_thor2's *Flashing*) adds `system_app`,
+ThorSubScreen's domain, to it.
 
 ## Building
 
@@ -87,9 +102,9 @@ m ThorSubScreen
 
 | Path | What's there |
 |---|---|
-| `src/org/thor2/subscreen/` | `SubScreenController` (when to show what), `Renderer` (draws a frame), `Panel` (the HAL), `KeyActions`, `CursorService`, `NotifyListener`, settings |
+| `src/org/thor2/subscreen/` | `SubScreenController` (when to show what), `Renderer` (draws a frame in the Nine look), `NineLook` (the font chosen in setup), `Panel` (the HAL), `KeyActions`, `CursorService`, `NotifyListener`, `PrefsProvider` (the settings, for Settings) |
 | `aidl/vendor/hnlens/hardware/presentation/` | The vendor HAL's interfaces |
-| `res/` | Strings (English and Russian), settings screens, the cursor service config |
+| `res/` | Strings (English and Russian), the cursor service config |
 
 ## Contributing
 

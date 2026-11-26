@@ -71,7 +71,7 @@
     <string name="in_call">Разговор</string>
     <string name="no_notifications">Уведомлений нет</string>
     <string name="new_notification">Новое уведомление</string>
-    <string name="torch_on">🔦 Фонарик включён</string>
+    <string name="torch_on">Фонарик включён</string>
     <string name="torch_off">Фонарик выключен</string>
     <string name="charging">Заряжается</string>
     <string name="charged">Заряжено</string>
@@ -116,4 +116,32 @@
     <string name="t9_summary">Traditional T9: предиктивный и мультитап-ввод с цифровой клавиатуры, есть русский. Открыть страницу загрузки</string>
     <string name="cursor_service_description">Режим курсора для кнопок: крестовина водит указатель, OK — касание, долгое OK — долгое касание, у края экрана — прокрутка. Включается и выключается кнопкой из «Настройки → Система → Кнопки и крышка».</string>
     <string name="cursor_service_label">Курсор</string>
+    <!-- Вид Nine: строка состояния, заголовки страниц, строка подсказки -->
+    <plurals name="status_missed">
+        <item quantity="one">%d пропущенный</item>
+        <item quantity="few">%d пропущенных</item>
+        <item quantity="many">%d пропущенных</item>
+        <item quantity="other">%d пропущенных</item>
+    </plurals>
+    <plurals name="status_new">
+        <item quantity="one">%d новое</item>
+        <item quantity="few">%d новых</item>
+        <item quantity="many">%d новых</item>
+        <item quantity="other">%d новых</item>
+    </plurals>
+    <plurals name="status_steps">
+        <item quantity="one">%d шаг</item>
+        <item quantity="few">%d шага</item>
+        <item quantity="many">%d шагов</item>
+        <item quantity="other">%d шага</item>
+    </plurals>
+    <string name="hint_next_page">sos следующая</string>
+    <string name="hint_ask">sos спросить</string>
+    <string name="hint_more">ещё %d</string>
+    <string name="hint_lid_answer">откройте крышку, чтобы ответить</string>
+    <string name="hint_lid_end">закройте крышку, чтобы завершить</string>
+    <string name="notifications_title">Уведомления</string>
+    <string name="music_playing">Музыка · играет</string>
+    <string name="music_paused">Музыка · пауза</string>
+    <string name="music_nothing">Ничего не играет</string>
 </resources>

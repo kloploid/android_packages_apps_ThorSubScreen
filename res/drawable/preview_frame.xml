@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!-- Рамка «корпуса» вокруг превью внешнего экрана. -->
-<shape xmlns:android="http://schemas.android.com/apk/res/android" android:shape="rectangle">
-    <solid android:color="#FF000000" />
-    <stroke android:width="6dp" android:color="#FF2B2B2B" />
-    <corners android:radius="18dp" />
-</shape>

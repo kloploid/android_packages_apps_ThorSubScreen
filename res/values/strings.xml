@@ -72,7 +72,7 @@
     <string name="in_call">In call</string>
     <string name="no_notifications">No notifications</string>
     <string name="new_notification">New notification</string>
-    <string name="torch_on">🔦 Flashlight on</string>
+    <string name="torch_on">Flashlight on</string>
     <string name="torch_off">Flashlight off</string>
     <string name="charging">Charging</string>
     <string name="charged">Charged</string>
@@ -115,4 +115,26 @@
     <string name="t9_summary">Traditional T9: predictive and multi-tap input from the keypad, Russian included. Open the download page</string>
     <string name="cursor_service_description">Cursor mode for the keypad: the D-pad moves a pointer, OK taps, long OK long-presses, the screen edge scrolls. Turned on and off by the key assigned in Settings → System → Buttons and lid.</string>
     <string name="cursor_service_label">Cursor</string>
+    <!-- Nine look: status line, page titles, hint bar -->
+    <plurals name="status_missed">
+        <item quantity="one">%d missed</item>
+        <item quantity="other">%d missed</item>
+    </plurals>
+    <plurals name="status_new">
+        <item quantity="one">%d new</item>
+        <item quantity="other">%d new</item>
+    </plurals>
+    <plurals name="status_steps">
+        <item quantity="one">%d step</item>
+        <item quantity="other">%d steps</item>
+    </plurals>
+    <string name="hint_next_page">sos next page</string>
+    <string name="hint_ask">sos ask</string>
+    <string name="hint_more">%d more</string>
+    <string name="hint_lid_answer">open the lid to answer</string>
+    <string name="hint_lid_end">close the lid to hang up</string>
+    <string name="notifications_title">Notifications</string>
+    <string name="music_playing">Music · playing</string>
+    <string name="music_paused">Music · paused</string>
+    <string name="music_nothing">Nothing playing</string>
 </resources>
